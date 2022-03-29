@@ -21,6 +21,3 @@ Route::get('paginas', function () {
     return view('paginas.index');
 });
 
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
